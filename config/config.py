@@ -5,6 +5,8 @@ load_dotenv()
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 ADMINS = getenv("ADMINS")
+
+# sql litedan boshqa database kerak bo'lmasa shart emas
 DATABASE = getenv("DATABASE")
 USER = getenv("USER")
 PASSWORD = getenv("PASSWORD")
